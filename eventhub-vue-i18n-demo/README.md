@@ -67,7 +67,6 @@ docs/TYPESCRIPT-CHECK.md
 
 ## Demo-Drehbuch und Folienabgleich
 
-- [Ablauf 5 Minuten](docs/LIVE-DEMO-5MIN.md)
 - [Abgleich aller Folien und Abweichungen](docs/SLIDES-TRACEABILITY.md)
 - [TypeScript-Fehler demonstrieren](docs/TYPESCRIPT-CHECK.md)
 
