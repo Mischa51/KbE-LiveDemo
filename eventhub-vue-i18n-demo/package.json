@@ -1,0 +1,29 @@
+{
+  "name": "eventhub-vue-i18n-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "photo": "node scripts/fetch-artist-photo.mjs",
+    "check:offline": "node --experimental-strip-types scripts/offline-check.mjs"
+  },
+  "dependencies": {
+    "lucide-vue-next": "^0.468.0",
+    "vue": "^3.5.22",
+    "vue-i18n": "^11.4.18"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.11",
+    "vitest": "^3.2.4",
+    "vue-tsc": "^3.1.0",
+    "@types/node": "^22.15.30"
+  }
+}
